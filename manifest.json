@@ -1,0 +1,19 @@
+{
+    "name": "Facebook Poker",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.2",
+    "description": "Automatically click on Poke back! button",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "alarms",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://www.facebook.com/*"
+      ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
